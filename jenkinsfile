@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "yourdockerhubusername/my-app"
+        IMAGE_NAME = "techtalkjervin/my-app"
         REGISTRY = "docker.io"
         DOCKER_CREDENTIALS_ID = "docker-hub-credentials"
         GITHUB_CREDENTIALS_ID = "github-credentials"
@@ -60,4 +60,3 @@ pipeline {
         }
     }
 }
-
